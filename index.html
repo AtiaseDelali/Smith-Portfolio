@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--
+  One thing to edit (Ctrl+F): YOUR-LINKEDIN-URL -> your LinkedIn profile link
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Smith Cudjoe | Data &amp; Business Analyst</title>
+<meta name="description" content="Portfolio of Smith Cudjoe, data and business analyst: SQL and Power BI projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0f1424;
+    --text: #e8ebf5;
+    --muted: #9aa3bd;
+    --card: rgba(30, 36, 66, 0.55);
+    --border: rgba(148, 163, 214, 0.16);
+    --accent: #5b4ce6;
+    --accent-hover: #6d5ff2;
+    --grad-a: #818cf8;
+    --grad-b: #c084fc;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; background: #0d1120; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body {
+    margin: 0; min-height: 100vh; color: var(--text);
+    font: 400 1rem/1.6 "DM Sans", "Segoe UI", Arial, sans-serif;
+    background:
+      radial-gradient(ellipse 70% 45% at 70% 0%, rgba(91, 76, 230, 0.16), transparent 70%),
+      linear-gradient(160deg, #1a1f38 0%, #121729 45%, #0d1120 100%);
+  }
+  a { color: inherit; }
+  a:focus-visible { outline: 2px solid var(--grad-a); outline-offset: 3px; border-radius: 6px; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 1.5rem; }
+
+  /* ---------- Hero ---------- */
+  .hero { text-align: center; padding: 7rem 0 5rem; }
+  .hero h1 { margin: 0 0 1rem; font: 800 clamp(2.6rem, 6vw, 4rem)/1.1 "Outfit", "Segoe UI", sans-serif; letter-spacing: -0.02em; }
+  .grad { background: linear-gradient(90deg, var(--grad-a), var(--grad-b)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .hero p { margin: 0 auto 2.2rem; max-width: 38rem; color: #c9cee0; font-size: 1.15rem; }
+  .btns { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    padding: 0.65rem 1.25rem; border-radius: 8px; text-decoration: none;
+    font: 500 0.92rem "DM Sans", sans-serif; transition: background .2s, border-color .2s, color .2s;
+  }
+  .btn svg { width: 17px; height: 17px; fill: currentColor; flex: none; }
+  .btn.primary { background: var(--accent); color: #fff; }
+  .btn.primary:hover { background: var(--accent-hover); }
+  .btn.ghost { border: 1px solid var(--border); background: rgba(255,255,255,0.04); color: var(--text); }
+  .btn.ghost:hover { border-color: var(--grad-a); color: #fff; }
+  .btn.sm { padding: 0.45rem 0.9rem; font-size: 0.85rem; border-radius: 7px; }
+
+  /* ---------- Projects ---------- */
+  .section-head { text-align: center; margin-bottom: 2.8rem; }
+  .section-head h2 { margin: 0 0 0.4rem; font: 700 2rem/1.2 "Outfit", sans-serif; }
+  .section-head p { margin: 0; color: var(--muted); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.6rem; max-width: 960px; margin: 0 auto; }
+  .card {
+    display: flex; flex-direction: column;
+    background: var(--card); border: 1px solid var(--border); border-radius: 14px; overflow: hidden;
+    transition: transform .2s, border-color .2s, box-shadow .2s;
+  }
+  .card:hover { transform: translateY(-4px); border-color: rgba(129, 140, 248, 0.45); box-shadow: 0 18px 40px rgba(0,0,0,0.35); }
+  .thumb { position: relative; display: block; aspect-ratio: 16 / 9; background: linear-gradient(180deg, #3b3a8f, #1e2244); overflow: hidden; }
+  .thumb img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; opacity: 0.92; }
+  .thumb::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 55%, rgba(18, 23, 41, 0.85)); }
+  .type { position: absolute; top: 0.8rem; left: 0.8rem; z-index: 1; padding: 0.2rem 0.65rem; border-radius: 999px; background: rgba(15, 20, 36, 0.8); border: 1px solid var(--border); font-size: 0.75rem; font-weight: 500; color: #c7d2fe; }
+  .body { display: flex; flex-direction: column; flex: 1; padding: 1.4rem 1.4rem 1.5rem; }
+  .body h3 { margin: 0 0 0.55rem; font: 700 1.3rem/1.3 "Outfit", sans-serif; }
+  .body p { margin: 0 0 1rem; color: #b7bdd2; font-size: 0.93rem; }
+  .tags { display: flex; flex-wrap: wrap; gap: 0.45rem; margin: 0 0 1.3rem; padding: 0; list-style: none; }
+  .tags li { padding: 0.2rem 0.65rem; border-radius: 999px; background: rgba(99, 102, 241, 0.14); border: 1px solid rgba(129, 140, 248, 0.22); color: #c7d2fe; font-size: 0.75rem; }
+  .card .btns { justify-content: flex-start; margin-top: auto; }
+
+  footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding: 6rem 1rem 2.5rem; }
+</style>
+</head>
+<body>
+
+<header class="hero wrap">
+  <h1>Hi, I’m <span class="grad">Smith Cudjoe</span></h1>
+  <p>Data &amp; Business Analyst turning raw data into clear decisions with SQL and Power BI.</p>
+  <div class="btns">
+    <a class="btn primary" href="https://github.com/AtiaseDelali"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg> GitHub</a>
+    <a class="btn ghost" href="YOUR-LINKEDIN-URL"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg> LinkedIn</a>
+    <a class="btn ghost" href="#projects">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h8v8H3V3zm10 0h8v8h-8V3zM3 13h8v8H3v-8zm10 0h8v8h-8v-8z"/></svg> Projects</a>
+  </div>
+</header>
+
+<main class="wrap" id="projects">
+  <div class="section-head">
+    <h2>Featured Projects</h2>
+    <p>Real business questions, answered with SQL and Power BI</p>
+  </div>
+
+  <div class="grid">
+    <article class="card">
+      <a class="thumb" href="online-retail-analysis/">
+        <span class="type">Data Analysis</span>
+        <img src="online-retail-analysis/dashboard.png" alt="Power BI dashboard of online retail sales">
+      </a>
+      <div class="body">
+        <h3>Online Retail Analysis</h3>
+        <p>Who really pays the bills at a UK online gift shop? Over one million transactions reveal a wholesale business driven by a few big customers and a Christmas peak every November.</p>
+        <ul class="tags"><li>SQL</li><li>SQLite</li><li>Power BI</li><li>Excel</li></ul>
+        <div class="btns">
+          <a class="btn primary sm" href="online-retail-analysis/">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42L17.59 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg> View</a>
+          <a class="btn ghost sm" href="https://github.com/AtiaseDelali/Hotels/blob/main/online-retail-analysis/Onlineretailanalysis.sql"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg> SQL</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="thumb" href="hotel-cancellation-analysis/">
+        <span class="type">Business Analysis</span>
+        <img src="hotel-cancellation-analysis/dashboard.png" alt="Power BI dashboard of hotel booking cancellations">
+      </a>
+      <div class="body">
+        <h3>Hotel Booking Cancellations</h3>
+        <p>37.5% of bookings at two hotels in Portugal were cancelled, putting €16.7M at risk. I found where the losses come from and built the business case for a new deposit policy.</p>
+        <ul class="tags"><li>SQL</li><li>Power BI</li><li>KPIs</li><li>Business Case</li></ul>
+        <div class="btns">
+          <a class="btn primary sm" href="hotel-cancellation-analysis/">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42L17.59 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg> View</a>
+          <a class="btn ghost sm" href="https://github.com/AtiaseDelali/Hotels/blob/main/hotel-cancellation-analysis/Hotelcancellationanalysis.sql"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg> SQL</a>
+        </div>
+      </div>
+    </article>
+  </div>
+</main>
+
+<footer>© 2026 Smith Cudjoe · Built with SQL, Power BI and GitHub Pages</footer>
+</body>
+</html>
