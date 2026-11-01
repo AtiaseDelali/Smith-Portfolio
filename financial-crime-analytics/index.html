@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<!--
+  One thing to edit (Ctrl+F):
+    YOUR-LINKEDIN-URL    -> your LinkedIn profile link
+  The GitHub links fill themselves in once the page is on GitHub Pages.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Financial Crime Analytics: Monitoring Rules | Synthetic Data</title>
+<meta name="description" content="Financial crime analytics on synthetic IBM anti-money laundering data using SQL and Power BI: which monitoring rules catch the most laundering for the fewest alerts.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --text: #e8ebf5;
+    --muted: #9aa3bd;
+    --body: #c3c8da;
+    --card: rgba(30, 36, 66, 0.55);
+    --border: rgba(148, 163, 214, 0.16);
+    --accent: #5b4ce6;
+    --accent-hover: #6d5ff2;
+    --grad-a: #818cf8;
+    --grad-b: #c084fc;
+  }
+  * { box-sizing: border-box; }
+  html { background: #0d1120; }
+  body {
+    margin: 0; min-height: 100vh; color: var(--text);
+    font: 400 1rem/1.75 "DM Sans", "Segoe UI", Arial, sans-serif;
+    background:
+      radial-gradient(ellipse 70% 40% at 70% 0%, rgba(91, 76, 230, 0.16), transparent 70%),
+      linear-gradient(160deg, #1a1f38 0%, #121729 45%, #0d1120 100%);
+  }
+  a { color: inherit; }
+  a:focus-visible { outline: 2px solid var(--grad-a); outline-offset: 3px; border-radius: 6px; }
+
+  /* ---------- Top: name ---------- */
+  .intro { text-align: center; padding: 3rem 1rem 1.5rem; }
+  .logo {
+    text-decoration: none; font: 800 clamp(1.6rem, 4vw, 2.2rem)/1.1 "Outfit", "Segoe UI", sans-serif;
+    background: linear-gradient(90deg, var(--grad-a), var(--grad-b)); -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+
+  /* ---------- Nav ---------- */
+  .wrapper { max-width: 1120px; margin: 0 auto; padding: 0 1.5rem; }
+  nav.bar { display: flex; justify-content: space-between; align-items: center; padding: 0 0 1.5rem; }
+  nav.bar .tab {
+    padding: 0.5rem 1rem; border: 1px solid var(--border); border-radius: 8px; background: rgba(255,255,255,0.04);
+    text-decoration: none; font-weight: 500; font-size: 0.9rem;
+  }
+  nav.bar .tab::before { content: "← "; }
+  nav.bar .tab:hover { border-color: var(--grad-a); }
+  nav.bar .icons { display: flex; gap: 0.9rem; }
+  nav.bar .icons a { display: flex; color: var(--muted); }
+  nav.bar .icons a:hover { color: #fff; }
+  nav.bar svg { width: 22px; height: 22px; fill: currentColor; }
+
+  /* ---------- Main ---------- */
+  main { background: var(--card); border: 1px solid var(--border); border-radius: 18px; overflow: hidden; }
+  .featured { padding: 4.5rem clamp(1.25rem, 7vw, 6rem) 4rem; text-align: center; border-bottom: 1px solid var(--border); }
+  .featured h1 { margin: 0 0 2.5rem; font: 800 clamp(2.1rem, 5vw, 3.4rem)/1.12 "Outfit", "Segoe UI", sans-serif; letter-spacing: -0.01em; }
+  .featured .story { color: var(--body); font-size: 1.04rem; line-height: 1.9; margin: 0 auto 1.3rem; max-width: 52rem; text-align: left; }
+  .featured figure { margin: 3rem auto 0; max-width: 1000px; }
+  .featured img { display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--border); box-shadow: 0 20px 50px rgba(0,0,0,0.4); }
+  .featured figcaption { margin-top: 0.8rem; color: var(--muted); font-size: 0.85rem; }
+
+  .button {
+    display: inline-flex; align-items: center; margin-top: 2rem; padding: 0.65rem 1.3rem; border-radius: 8px;
+    border: 1px solid var(--border); background: rgba(255,255,255,0.04); color: var(--text); text-decoration: none;
+    font: 500 0.92rem "DM Sans", sans-serif; transition: background .2s, border-color .2s;
+  }
+  .button:hover { border-color: var(--grad-a); }
+  .button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .button.primary:hover { background: var(--accent-hover); }
+  .buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: 0 0.75rem; }
+
+  /* ---------- Sections ---------- */
+  .posts { display: grid; grid-template-columns: 1fr 1fr; }
+  .posts article { padding: 3.5rem clamp(1.25rem, 4vw, 3.5rem); border-bottom: 1px solid var(--border); }
+  .posts article:nth-child(odd) { border-right: 1px solid var(--border); }
+  .posts h2 { margin: 0 0 1.6rem; font: 700 1.6rem/1.25 "Outfit", sans-serif; }
+  .posts img { display: block; width: 100%; height: auto; margin: 0 0 1.6rem; border-radius: 10px; border: 1px solid var(--border); }
+  .posts p { color: var(--body); font-size: 0.97rem; margin: 0 0 1rem; }
+  .posts ol { color: var(--body); font-size: 0.97rem; padding-left: 1.2rem; margin: 0; }
+  .posts ol li { margin-bottom: 0.85rem; }
+  .posts ol li::marker { color: var(--grad-a); font-weight: 700; }
+  .posts strong { color: var(--text); font-weight: 700; }
+
+  footer { text-align: center; color: var(--muted); font-size: 0.85rem; line-height: 1.8; padding: 3rem 1rem 2.5rem; }
+  footer a { color: #c7d2fe; }
+
+  @media (max-width: 820px) {
+    .posts { grid-template-columns: 1fr; }
+    .posts article:nth-child(odd) { border-right: 0; }
+    .featured { padding-top: 3rem; }
+  }
+  .badge {
+    display: inline-block; margin: 0 0 1.4rem; padding: 0.35rem 0.9rem; border-radius: 999px;
+    background: rgba(251, 191, 36, 0.12); border: 1px solid rgba(251, 191, 36, 0.45); color: #fcd34d;
+    font-size: 0.85rem; font-weight: 500;
+  }
+</style>
+</head>
+<body>
+
+<div class="intro">
+  <a class="logo" href="../">Smith Cudjoe</a>
+</div>
+
+<div class="wrapper">
+  <nav class="bar" aria-label="Main">
+    <a class="tab" href="../">All Projects</a>
+    <div class="icons">
+      <a href="YOUR-LINKEDIN-URL" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+      </a>
+      <a class="repo-link" href="#" aria-label="GitHub">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="featured">
+      <span class="badge">Synthetic data · IBM AMLworld simulation</span>
+      <h1>Financial Crime Analytics<br>Which Monitoring Rules Earn Their Alerts?</h1>
+
+      <p class="story">Transaction monitoring rules raise alerts that analysts must review. Too few rules miss laundering; too many bury the team in alerts that lead nowhere. Real labelled money-laundering data cannot be published, so IBM researchers simulated a whole financial system of banks, companies and individuals, and labelled every laundering transfer. That makes it possible to measure how well a control actually works. In this project I take the role of an analyst supporting a financial crime operations lead. I tested six simple monitoring rules on 137,936 laundering transfers in 16,467 schemes, analysed the results in SQLite, and built a four-page Power BI dashboard ending in a rule-tuning plan.</p>
+
+      <p class="story">Together the six rules detected 97.2% of schemes, but they did not share the work equally. A foreign-currency rule and a $10,000 large-transfer rule detected 82% and 77% of schemes, and each caught hundreds of schemes no other rule did. The two network rules, which flag accounts with many senders or many receivers, raised 8.3 alerts for every scheme they detected yet caught only 17 schemes each that no other rule caught, and there was no sign of structuring just below $10,000. Retiring those three rules would cut alerts by 37% while scheme detection fell by less than one point, from 97.2% to 96.3%. Raising the large-transfer threshold to $25,000, on the other hand, would cut its detection from 77% to 15%.</p>
+
+      <figure>
+        <img src="dashboard.png" alt="Power BI laundering overview showing 137,936 laundering transfers, 16,467 schemes, laundering by currency, by month, by payment format and by hour of the day">
+        <figcaption>The Power BI laundering overview page (synthetic data)</figcaption>
+      </figure>
+
+      <div class="buttons">
+        <a class="button primary sql-link" data-file="Amlrulesanalysis.sql" href="Amlrulesanalysis.sql">View Project</a>
+        <a class="button" href="Financial_Crime_Dashboard.pdf">Dashboard PDF</a>
+        <a class="button" href="Project_Brief.md">Project Brief</a>
+      </div>
+    </section>
+
+    <section class="posts">
+      <article>
+        <h2>Rule Testing in SQL</h2>
+        <a class="sql-link" data-file="Amlrulesanalysis.sql" href="Amlrulesanalysis.sql"><img src="sql_preview.png" alt="SQL query counting alerts, schemes detected and alerts per scheme for each rule"></a>
+        <p>The analysis was done in SQLite using DBeaver, with simple SQL throughout. Each rule is one CASE statement, or a GROUP BY count of an account’s senders or receivers joined back to the transfers. A scheme counts as detected if any of its transfers raises an alert.</p>
+        <p>Thirteen business questions follow, from what laundering looks like to each rule’s detection rate, workload and unique catches, the patterns that slip through, and the effect of tuning. Every query has a comment explaining why it matters and what the result was.</p>
+        <a class="button sql-link" data-file="Amlrulesanalysis.sql" href="Amlrulesanalysis.sql">View SQL</a>
+      </article>
+
+      <article>
+        <h2>Power BI Dashboard</h2>
+        <a href="Financial_Crime_Dashboard.pdf"><img src="powerbi_preview.png" alt="Column chart showing the large-transfer rule detects 77.1% of schemes at $10,000 but only 14.8% at $25,000"></a>
+        <p>The dashboard has four pages. The laundering overview shows volume by currency, payment format, month and hour. The patterns page shows amount bands and scheme types. The rule performance page compares each rule’s detection, alerts per scheme and unique catches, and the last page sets out the tuning plan and KPIs.</p>
+        <p>Every chart title states its finding, and every page is labelled as synthetic data.</p>
+        <a class="button" href="Financial_Crime_Dashboard.pdf">View Dashboard</a>
+      </article>
+
+      <article>
+        <h2>The Business Problem</h2>
+        <p>Every alert costs an analyst’s time, so a monitoring rule has to earn its place. Before analysing the data, I wrote a brief setting out the stakeholders: the head of financial crime operations wants fewer alerts, analysts want alerts worth reviewing, compliance needs evidence that coverage stays high, and rule governance needs a documented case for every change.</p>
+        <p>These needs became seven business questions and four KPIs: alerts, scheme detection rate, alerts per scheme and unique schemes.</p>
+        <a class="button" href="Project_Brief.md">View Brief</a>
+      </article>
+
+      <article>
+        <h2>Understanding the Data</h2>
+        <p>I used IBM’s companion patterns file, which holds only the laundering transfers, grouped into schemes such as fan-in, fan-out and cycle. So it shows what each rule catches and what it costs in alerts, but not false alerts on normal payments. Measuring those on the full transactions file is the first step in the tuning plan.</p>
+        <p>The checks paid off. Some account IDs, such as 800E49350, look like numbers in scientific notation, and on the first import DBeaver read 4,419 of them as numbers, merging them into 1,862 values and inflating two rules. Importing the accounts as text fixed it, and a one-line check now confirms it on every run.</p>
+      </article>
+
+      <article>
+        <h2>Key Findings</h2>
+        <ol>
+          <li><strong>The rules cover almost everything.</strong> Together they detect 97.2% of schemes; the 460 they miss are mostly one or two transfers.</li>
+          <li><strong>Two rules do most of the work.</strong> Foreign currency (82%) and large transfer (77%) each catch hundreds of schemes no other rule does.</li>
+          <li><strong>Network rules are costly.</strong> Many-senders and many-receivers raise 8.3 alerts per scheme for only 17 unique schemes each.</li>
+          <li><strong>No structuring.</strong> Transfers just below $10,000 are no more common than any other $1,000 band.</li>
+          <li><strong>Laundering is a daytime activity.</strong> Only 14.5% of transfers happen at night, which is a quarter of the day.</li>
+        </ol>
+      </article>
+
+      <article>
+        <h2>Rule-Tuning Plan</h2>
+        <ol>
+          <li><strong>Retire the network rules (R3 and R4).</strong> They carry the heaviest workload and add almost nothing unique.</li>
+          <li><strong>Retire the structuring rule (R2).</strong> There is no structuring to catch.</li>
+          <li><strong>Keep the large-transfer rule at $10,000.</strong> A higher threshold would miss most schemes.</li>
+          <li><strong>Test the broad rules for false alerts.</strong> Night-time and foreign-currency rules may flag many normal payments.</li>
+          <li><strong>Track the KPIs monthly.</strong> Scheme detection of 96% or more, and a third fewer alerts per scheme.</li>
+        </ol>
+        <a class="button repo-link" href="#">View on GitHub</a>
+      </article>
+    </section>
+  </main>
+</div>
+
+<footer>
+  Data: <a href="https://www.kaggle.com/datasets/ealtman2019/ibm-transactions-for-anti-money-laundering-aml">IBM Transactions for Anti-Money Laundering</a> (synthetic)<br>
+  Tools: SQLite (DBeaver) &middot; Power BI
+</footer>
+
+<script>
+  // Fill in the GitHub links automatically from the GitHub Pages address.
+  // Works for https://USERNAME.github.io/REPOSITORY/FOLDER/ and https://USERNAME.github.io/FOLDER/
+  (function () {
+    var host = location.hostname;
+    if (!host.endsWith('github.io')) return;
+    var user = host.split('.')[0];
+    var folders = ['online-retail-analysis', 'hotel-cancellation-analysis', 'consumer-complaints-analysis', 'bank-consolidation-analysis', 'financial-crime-analytics'];
+    var segs = location.pathname.split('/').filter(function (s) { return s && s !== 'index.html'; });
+    var repo, folder;
+    if (folders.indexOf(segs[0]) !== -1) { repo = host; folder = segs[0]; }
+    else { repo = segs[0]; folder = segs[1]; }
+    var base = 'https://github.com/' + user + '/' + repo;
+    var files = base + '/blob/main/' + folder + '/';
+    document.querySelectorAll('.repo-link').forEach(function (a) { a.href = base + '/tree/main/' + folder; });
+    document.querySelectorAll('.sql-link').forEach(function (a) { a.href = files + a.getAttribute('data-file'); });
+    document.querySelectorAll('a[href$=".md"]').forEach(function (a) { a.href = files + a.getAttribute('href'); });
+  })();
+</script>
+</body>
+</html>

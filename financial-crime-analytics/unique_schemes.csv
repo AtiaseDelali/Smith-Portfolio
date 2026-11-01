@@ -1,0 +1,7 @@
+rule,unique_schemes
+R1 Large transfer,726
+R2 Just below $10k,59
+R3 Many senders,17
+R4 Many receivers,17
+R5 Night-time,162
+R6 Foreign currency,1255

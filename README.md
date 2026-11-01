@@ -1,6 +1,6 @@
 # Smith Cudjoe: Data & Business Analysis Portfolio
 
-Four projects using SQL (SQLite) and Power BI. Each folder has its own README, SQL file, dashboard and project page.
+Five projects using SQL (SQLite) and Power BI. Each folder has its own README, SQL file, dashboard and project page.
 
 | Project | Type | Business question | Folder |
 |---|---|---|---|
@@ -8,6 +8,7 @@ Four projects using SQL (SQLite) and Power BI. Each folder has its own README, S
 | **Hotel Booking Cancellations** | Business analysis | Where are cancellations costing two hotels money, and which policy would protect the most revenue? | [hotel-cancellation-analysis](hotel-cancellation-analysis/) |
 | **Consumer Complaints & SLA** | Business analysis | What drives complaints and late responses, and where should operations focus first? | [consumer-complaints-analysis](consumer-complaints-analysis/) |
 | **Bank Consolidation & Branch Impact** | Business analysis | How fast are US banks consolidating, and what do mergers mean for branches and customers? | [bank-consolidation-analysis](bank-consolidation-analysis/) |
+| **Financial Crime Analytics** *(synthetic data)* | Financial crime analytics | Which monitoring rules catch the most laundering for the fewest alerts? | [financial-crime-analytics](financial-crime-analytics/) |
 
 ## Online Retail Analysis
 ![Online retail dashboard](online-retail-analysis/dashboard.png)
@@ -32,6 +33,12 @@ A business analysis of 4,991 complaints from the CFPB Consumer Complaint Databas
 
 A business analysis of FDIC bank structure changes: 361 banks were absorbed in mergers between January 2020 and September 2022 while only 28 new banks opened. Nine large deals moved half of the 4,800 acquired branches, and buyers closed 81% more branches in the year after a merger. The project ends with a merger integration readiness checklist, and shows how I worked out what a capped 10,000-row extract really contained before analysing it.
 → [Read the project](bank-consolidation-analysis/README.md)
+
+## Financial Crime Analytics (synthetic data)
+![Financial crime dashboard](financial-crime-analytics/dashboard.png)
+
+Six simple transaction monitoring rules tested on 137,936 laundering transfers from IBM's synthetic AMLworld simulation. Together they detect 97.2% of 16,467 laundering schemes, but two network rules raise 8.3 alerts per scheme while adding almost nothing unique. Retiring three rules would cut alerts by 37% for less than one point of detection. The project also shows how a type-detection error on import silently merged 4,419 accounts, and how a one-line check now catches it.
+→ [Read the project](financial-crime-analytics/README.md)
 
 ## Tools
 SQLite (DBeaver) · Power BI · Excel · GitHub Pages

@@ -1,0 +1,7 @@
+rule,alerts,schemes_detected,scheme_detection_pct,alerts_per_scheme
+R1 Large transfer,64803,12688,77.1,5.1
+R2 Just below $10k,7275,4675,28.4,1.6
+R3 Many senders,45393,5492,33.4,8.3
+R4 Many receivers,45260,5439,33.0,8.3
+R5 Night-time,20017,9919,60.2,2.0
+R6 Foreign currency,79955,13465,81.8,5.9
