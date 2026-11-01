@@ -1,0 +1,362 @@
+target_cert,target_name,target_state,target_type,acquirer_cert,acquirer_name,acquirer_state,acquirer_type,eff_date,eff_year,branches_acquired,is_cross_state,deal_size
+46,Merchants Bank of Alabama,AL,Commercial,58088,SouthPoint Bank,AL,Commercial,2022-01-05,2022,5,0,2. 2-5 branches
+47,Traders & Farmers Bank,AL,Commercial,8870,BankFirst Financial Services,MS,Commercial,2020-07-01,2020,7,1,3. 6-20 branches
+223,Manson State Bank,IA,Commercial,14208,Security Savings Bank,IA,Commercial,2022-05-14,2022,1,0,1. 0-1 branches
+256,Melvin Savings Bank,IA,Commercial,13953,Iowa State Bank,IA,Commercial,2021-07-01,2021,2,0,2. 2-5 branches
+341,Western Bank of Wolf Point,MT,Commercial,30182,Opportunity Bank of Montana,MT,Commercial,2020-01-01,2020,1,0,1. 0-1 branches
+419,The Citizens State Bank,OK,Commercial,27476,BancFirst,OK,Commercial,2020-03-06,2020,2,0,2. 2-5 branches
+484,First State Bank of Claremont,SD,Commercial,17437,Dacotah Bank,SD,Commercial,2020-07-03,2020,2,0,2. 2-5 branches
+829,Peoples Community Bank,VA,Commercial,10363,Citizens and Farmers Bank,VA,Commercial,2020-01-01,2020,5,0,2. 2-5 branches
+920,Community Banks of Shelby County,IL,Commercial,29566,"United Fidelity Bank, fsb",IN,Savings,2022-09-23,2022,3,1,2. 2-5 branches
+924,Farmers & Mechanics Bank,IL,Commercial,1552,CBI Bank & Trust,IA,Commercial,2021-02-06,2021,5,1,2. 2-5 branches
+961,First National Bank of Muscatine,IA,Commercial,14843,MidWestOne Bank,IA,Commercial,2022-06-09,2022,3,0,2. 2-5 branches
+1051,Citizens Bank,KY,Commercial,8774,The Cecilian Bank,KY,Commercial,2020-01-17,2020,3,0,2. 2-5 branches
+1383,State Bank of Belle Plaine,MN,Commercial,5247,First National Bank Minnesota,MN,Commercial,2020-04-17,2020,1,0,1. 0-1 branches
+1388,Ormsby State Bank,MN,Commercial,8200,Citizens Bank Minnesota,MN,Commercial,2021-01-22,2021,1,0,1. 0-1 branches
+1421,CBC Bank,MO,Commercial,15264,Peoples Savings Bank of Rhineland,MO,Commercial,2020-12-12,2020,4,0,2. 2-5 branches
+1480,The Farmers & Merchants Bank,TN,Commercial,9172,Security Bank and Trust Company,TN,Commercial,2020-08-15,2020,4,0,2. 2-5 branches
+1599,Farmers and Merchants State Bank of Blooming Prairie,MN,Commercial,16307,Manufacturers Bank & Trust Company,IA,Commercial,2021-09-18,2021,2,1,2. 2-5 branches
+1643,Providence Bank,MO,Commercial,3705,"First Mid Bank & Trust, National Association",IL,Commercial,2021-05-14,2021,14,1,3. 6-20 branches
+1787,Rochester State Bank,IL,Commercial,15423,American Bank of Missouri,MO,Commercial,2021-07-09,2021,1,1,1. 0-1 branches
+1837,Ossian State Bank,IN,Commercial,5969,The Farmers & Merchants State Bank,OH,Commercial,2021-04-30,2021,3,1,2. 2-5 branches
+1918,Citizens State Bank of Glenville,MN,Commercial,10178,Produce State Bank,MN,Commercial,2020-01-15,2020,1,0,1. 0-1 branches
+2124,"Southcrest Bank, National Association",GA,Commercial,22257,Colony Bank,GA,Commercial,2021-08-01,2021,9,0,3. 6-20 branches
+2147,Southwest Georgia Bank,GA,Commercial,34217,"The First, A National Banking Association",MS,Commercial,2020-04-03,2020,8,1,3. 6-20 branches
+2176,First Community Bank,MT,Commercial,30182,Opportunity Bank of Montana,MT,Commercial,2022-04-30,2022,9,0,3. 6-20 branches
+2281,The Cortland Savings and Banking Company,OH,Commercial,6540,The Farmers National Bank of Canfield,OH,Commercial,2021-11-01,2021,13,0,3. 6-20 branches
+2312,The American Bank,OK,Commercial,14899,Blue Sky Bank,OK,Commercial,2022-05-16,2022,1,0,1. 0-1 branches
+2318,Cornerstone Bank,OK,Commercial,4147,Bank 7,OK,Commercial,2021-12-10,2021,3,0,2. 2-5 branches
+2375,The Bank of Waynesboro,TN,Commercial,58823,CapStar Bank,TN,Commercial,2020-07-01,2020,5,0,2. 2-5 branches
+2476,McFarland State Bank,WI,Commercial,22334,Oregon Community Bank,WI,Commercial,2020-05-01,2020,6,0,3. 6-20 branches
+2595,First  Ipswich Bank,MA,Commercial,17798,Brookline  Bank,MA,Commercial,2020-02-15,2020,6,0,3. 6-20 branches
+2704,First National Bank and Trust,KY,Commercial,22354,Commercial Bank,TN,Commercial,2020-02-01,2020,4,1,2. 2-5 branches
+2769,The Farmers National Bank of Scottsville,KY,Commercial,8663,FirstBank,TN,Commercial,2020-02-14,2020,5,1,2. 2-5 branches
+2786,The First National Bank of Brundidge,AL,Commercial,5598,Troy Bank & Trust Company,AL,Commercial,2020-07-01,2020,2,0,2. 2-5 branches
+2824,FNB Bank,AL,Commercial,11813,BancorpSouth Bank,MS,Commercial,2021-05-01,2021,17,1,3. 6-20 branches
+3134,First Bank and Trust of Childress,TX,Commercial,12769,First United Bank,TX,Commercial,2021-08-31,2021,3,0,2. 2-5 branches
+3214,National United,TX,Commercial,11813,BancorpSouth Bank,MS,Commercial,2021-05-01,2021,7,1,3. 6-20 branches
+3304,AIMBank,TX,Commercial,14778,First Bank & Trust,TX,Commercial,2020-12-04,2020,25,0,4. 21-100 branches
+3358,The Morris County National Bank of Naples,TX,Commercial,5544,The City National Bank of Sulphur Springs,TX,Commercial,2021-01-29,2021,2,0,2. 2-5 branches
+3709,First Midwest Bank,IL,Commercial,3832,Old National Bank,IN,Commercial,2022-02-16,2022,111,1,5. Over 100 branches
+3817,The First National Bank,IL,Commercial,29227,Washington Savings Bank,IL,Savings,2021-08-20,2021,3,0,2. 2-5 branches
+3858,Arkansas County Bank,AR,Commercial,1528,Southern Bancorp Bank,AR,Commercial,2021-05-15,2021,3,0,2. 2-5 branches
+4075,Bank of Cushing,OK,Commercial,14899,Blue Sky Bank,OK,Commercial,2020-02-15,2020,2,0,2. 2-5 branches
+4130,Bank of Laverne,OK,Commercial,421,Security State Bank,OK,Commercial,2020-08-15,2020,1,0,1. 0-1 branches
+4177,The First National Bank of Pawnee,OK,Commercial,13946,First Bank & Trust Company,OK,Commercial,2020-02-14,2020,1,0,1. 0-1 branches
+4204,Stroud National Bank,OK,Commercial,27394,First Bank & Trust Co.,OK,Commercial,2021-06-29,2021,3,0,2. 2-5 branches
+4218,The First National Bank and Trust Company of Vinita,OK,Commercial,27476,BancFirst,OK,Commercial,2021-05-21,2021,3,0,2. 2-5 branches
+4537,Landmark Bank,MO,Commercial,3890,Simmons Bank,AR,Commercial,2020-02-15,2020,32,1,4. 21-100 branches
+4626,Bank of the Prairie,KS,Commercial,8888,Country Club Bank,MO,Commercial,2020-04-25,2020,2,1,2. 2-5 branches
+4736,First Neodesha Bank,KS,Commercial,26217,Bank of Commerce,KS,Commercial,2020-01-01,2020,5,0,2. 2-5 branches
+4739,The Midland National Bank of Newton,KS,Commercial,1869,Union State Bank,KS,Commercial,2020-01-01,2020,5,0,2. 2-5 branches
+4748,The Farmers  Bank of Osborne,KS,Commercial,1147,The Peoples Bank,KS,Commercial,2020-02-14,2020,2,0,2. 2-5 branches
+4829,1880 Bank,MD,Commercial,32527,BayVanguard Bank,MD,Savings,2020-10-31,2020,6,0,3. 6-20 branches
+4951,The First National Bank of Manchester,TN,Commercial,58823,CapStar Bank,TN,Commercial,2020-07-01,2020,4,0,2. 2-5 branches
+4999,"Cadence Bank, N.A.",GA,Commercial,11813,BancorpSouth Bank,MS,Commercial,2021-10-29,2021,105,1,5. Over 100 branches
+5218,The First National Bank of Northfield,MN,Commercial,8866,"Merchants Bank, National Association",MN,Commercial,2020-05-14,2020,2,0,2. 2-5 branches
+5271,Roundbank,MN,Commercial,16958,Minnwest Bank,MN,Commercial,2021-11-19,2021,4,0,2. 2-5 branches
+5325,Union Bank of Sparta,WI,Commercial,14995,River Bank,WI,Commercial,2020-01-01,2020,2,0,2. 2-5 branches
+5331,NBW BANK,WI,Commercial,10044,National Exchange Bank and Trust,WI,Commercial,2020-01-24,2020,4,0,2. 2-5 branches
+5347,Peoples Bank Midwest,WI,Commercial,1399,Frandsen Bank & Trust,MN,Commercial,2020-10-17,2020,3,1,2. 2-5 branches
+5447,Bank of Newman Grove,NE,Commercial,5495,Citizens State Bank,NE,Commercial,2022-01-01,2022,1,0,1. 0-1 branches
+5525,First Bank & Trust,TX,Commercial,19788,Peoples Bank,TX,Commercial,2021-05-01,2021,4,0,2. 2-5 branches
+5546,The First National Bank of Tahoka,TX,Commercial,10359,Happy State Bank,TX,Commercial,2021-06-04,2021,1,0,1. 0-1 branches
+5600,The Citizens Bank of Fayette,AL,Commercial,8870,BankFirst Financial Services,MS,Commercial,2022-01-01,2022,2,1,2. 2-5 branches
+5677,Columbia Bank,FL,Commercial,35138,Millennium Bank,TN,Commercial,2020-06-01,2020,5,1,2. 2-5 branches
+5840,Citizens Union Bank of Shelbyville,KY,Commercial,17393,German American Bank,IN,Commercial,2022-01-01,2022,15,1,3. 6-20 branches
+6103,Citizens Bank,TN,Commercial,3887,First National Bank,AR,Commercial,2021-09-01,2021,3,1,2. 2-5 branches
+6128,The Bank of Fincastle,VA,Commercial,6917,First Bank,VA,Commercial,2021-07-01,2021,6,0,3. 6-20 branches
+6649,The Peoples National Bank of Mount Pleasant,OH,Commercial,19482,Consumers National Bank,OH,Commercial,2020-01-01,2020,3,0,2. 2-5 branches
+6923,The Fauquier Bank,VA,Commercial,34755,Virginia National Bank,VA,Commercial,2021-04-01,2021,11,0,3. 6-20 branches
+7391,Merchants Bank of Bangor,PA,Commercial,11868,The Fidelity Deposit and Discount Bank,PA,Commercial,2020-05-01,2020,9,0,3. 6-20 branches
+7598,Riverview Bank,PA,Commercial,9889,Mid Penn Bank,PA,Commercial,2021-11-30,2021,25,0,4. 21-100 branches
+8128,Hancock Bank & Trust Company,KY,Commercial,4382,"First Financial Bank, National Association",IN,Commercial,2021-11-05,2021,7,1,3. 6-20 branches
+8129,Peoples Bank & Trust Company,KY,Commercial,5840,Citizens Union Bank of Shelbyville,KY,Commercial,2020-04-03,2020,1,0,1. 0-1 branches
+8267,Farmers Bank of Lincoln,MO,Commercial,27046,Community National Bank & Trust,KS,Commercial,2020-08-20,2020,1,1,1. 0-1 branches
+8492,Glasford State Bank,IL,Commercial,1808,Better Banks,IL,Commercial,2022-06-17,2022,2,0,2. 2-5 branches
+8500,First State Bank,IA,Commercial,1553,The Shelby County State Bank,IA,Commercial,2022-02-01,2022,5,0,2. 2-5 branches
+8642,"Security State Bank, Wishek, North Dakota",ND,Commercial,19396,Unison Bank,ND,Commercial,2021-05-21,2021,3,0,2. 2-5 branches
+8675,Essex Bank,VA,Commercial,22858,United Bank,VA,Commercial,2021-12-04,2021,24,0,4. 21-100 branches
+8864,Farmers State Bank of Watkins,MN,Commercial,8200,Citizens Bank Minnesota,MN,Commercial,2020-04-16,2020,1,0,1. 0-1 branches
+8871,OmniBank,MS,Commercial,327,Merchants and Planters Bank,MS,Commercial,2022-05-20,2022,3,0,2. 2-5 branches
+8878,State Bank & Trust Company,MS,Commercial,5903,BankPlus,MS,Commercial,2020-04-01,2020,35,0,4. 21-100 branches
+8884,Home Exchange Bank,MO,Commercial,10618,BTC Bank,MO,Commercial,2021-10-15,2021,3,0,2. 2-5 branches
+8885,Bank of Louisiana,MO,Commercial,8903,Peoples Bank & Trust Co.,MO,Commercial,2021-12-11,2021,2,0,2. 2-5 branches
+8908,Citizens Bank of Cape Vincent,NY,Commercial,30976,Gouverneur Savings and Loan Association,NY,Savings,2022-09-16,2022,3,0,2. 2-5 branches
+9102,Rowley Savings Bank,IA,Commercial,17282,BankIowa,IA,Commercial,2021-12-03,2021,1,0,1. 0-1 branches
+9104,American Savings Bank,IA,Commercial,9300,Readlyn Savings Bank,IA,Commercial,2021-12-01,2021,1,0,1. 0-1 branches
+9264,H. F. Gehant Banking Co.,IL,Commercial,15752,First State Bank,IL,Commercial,2020-03-20,2020,1,0,1. 0-1 branches
+9307,Inez Deposit Bank,KY,Commercial,9437,First State Bank,OH,Commercial,2021-02-19,2021,4,1,2. 2-5 branches
+9668,Dixon Bank,KY,Commercial,57301,"United Community Bank of West Kentucky, Inc.",KY,Commercial,2022-04-23,2022,1,0,1. 0-1 branches
+9764,Union State Bank of Browns Valley,MN,Commercial,8207,Prairie Sun Bank,MN,Commercial,2021-07-30,2021,1,0,1. 0-1 branches
+9882,Peoples Bank,OK,Commercial,4190,American Heritage Bank,OK,Commercial,2020-09-19,2020,2,0,2. 2-5 branches
+9973,The First State Bank,TX,Commercial,3281,"Harmony Bank, National Association",TX,Commercial,2022-07-01,2022,4,0,2. 2-5 branches
+10045,"Cornerstone Bank, Inc.",WV,Commercial,34102,"Summit Community Bank, Inc",WV,Commercial,2020-01-01,2020,4,0,2. 2-5 branches
+10080,Reynolds State Bank,IL,Commercial,926,Peoples National Bank of Kewanee,IL,Commercial,2021-02-27,2021,1,0,1. 0-1 branches
+10196,Northern Sky Bank,MN,Commercial,15478,United Valley Bank,ND,Commercial,2021-03-20,2021,1,1,1. 0-1 branches
+10208,United Southwest Bank,MN,Commercial,1900,First Independent Bank,MN,Commercial,2021-12-10,2021,4,0,2. 2-5 branches
+10318,Sevier County Bank,TN,Commercial,58463,SmartBank,TN,Commercial,2021-09-01,2021,7,0,3. 6-20 branches
+10359,Happy State Bank,TX,Commercial,11241,Centennial Bank,AR,Commercial,2022-04-01,2022,64,1,4. 21-100 branches
+10375,Advantage Community Bank,WI,Commercial,57038,Nicolet National Bank,WI,Commercial,2020-08-21,2020,4,0,2. 2-5 branches
+10514,"Farmers Deposit Bank of Middleburg, Inc.",KY,Commercial,2740,The Farmers National Bank of Danville,KY,Commercial,2020-01-31,2020,2,0,2. 2-5 branches
+10582,"Citizens State Bank of Tyler, Incorporated",MN,Commercial,1900,First Independent Bank,MN,Commercial,2022-05-28,2022,1,0,1. 0-1 branches
+10588,First State Bank,MS,Commercial,11446,Unity Bank of Mississippi,MS,Commercial,2021-09-01,2021,2,0,2. 2-5 branches
+10734,Pioneer Bank,WI,Commercial,15271,First State Bank,WI,Commercial,2020-02-22,2020,7,0,3. 6-20 branches
+10828,The Bank of Carbondale,IL,Commercial,15565,First Southern Bank,IL,Commercial,2022-07-01,2022,5,0,2. 2-5 branches
+10879,First Farmers State Bank,IL,Commercial,16982,Bank of Pontiac,IL,Commercial,2021-04-01,2021,3,0,2. 2-5 branches
+10916,Stanley Bank,KS,Commercial,17685,Peoples State Bank,KS,Commercial,2021-07-01,2021,1,0,1. 0-1 branches
+10957,Citizens State Bank of Hayfield,MN,Commercial,16307,Manufacturers Bank & Trust Company,IA,Commercial,2021-09-17,2021,3,1,2. 2-5 branches
+11200,Virginia Commonwealth Bank,VA,Commercial,35274,"Blue Ridge Bank,  National Association",VA,Commercial,2021-01-31,2021,17,0,3. 6-20 branches
+11311,State Bank of Cerro Gordo,IL,Commercial,10855,State Bank of Bement,IL,Commercial,2022-04-01,2022,1,0,1. 0-1 branches
+11432,Citizens Bank,MS,Commercial,8232,Bank of Holly Springs,MS,Commercial,2020-12-01,2020,3,0,2. 2-5 branches
+11634,First State Bank,IA,Commercial,18384,Northeast Security Bank,IA,Commercial,2021-03-26,2021,2,0,2. 2-5 branches
+11866,The Bryn Mawr Trust Company,PA,Commercial,17838,"Wilmington Savings Fund Society, FSB",DE,Savings,2022-01-01,2022,40,1,4. 21-100 branches
+12017,RSI BANK,NJ,Savings,28834,Columbia Bank,NJ,Savings,2022-05-01,2022,4,0,2. 2-5 branches
+12165,Citizens Deposit Bank & Trust,KY,Commercial,6544,Peoples Bank,OH,Commercial,2021-09-18,2021,17,1,3. 6-20 branches
+12193,Pine Island Bank,MN,Commercial,1399,Frandsen Bank & Trust,MN,Commercial,2022-09-17,2022,1,0,1. 0-1 branches
+12391,State Bank of Saunemin,IL,Commercial,10434,State Bank of Graymont,IL,Commercial,2022-01-04,2022,2,0,2. 2-5 branches
+12406,Glenview State Bank,IL,Commercial,16450,Busey Bank,IL,Commercial,2021-08-13,2021,7,0,3. 6-20 branches
+12699,Legacy Bank,CO,Commercial,11492,InBank,NM,Commercial,2022-04-29,2022,11,1,3. 6-20 branches
+12716,Walcott Trust and Savings Bank,IA,Commercial,1552,CBI Bank & Trust,IA,Commercial,2020-06-06,2020,2,0,2. 2-5 branches
+12773,Altabank,UT,Commercial,30788,Glacier Bank,MT,Commercial,2021-10-01,2021,27,1,4. 21-100 branches
+12859,Victor State Bank,IA,Commercial,15427,Chelsea Savings Bank,IA,Commercial,2020-07-27,2020,1,0,1. 0-1 branches
+12936,Steuben Trust Company,NY,Commercial,6989,"Community Bank, National Association",NY,Commercial,2020-06-12,2020,14,0,3. 6-20 branches
+13029,Mitchell Bank,WI,Commercial,30422,First Federal Bank of Wisconsin,WI,Savings,2020-12-31,2020,3,0,2. 2-5 branches
+13206,"The Edon State Bank Company of Edon, Ohio",OH,Commercial,13339,The State Bank and Trust Company,OH,Commercial,2020-06-06,2020,1,0,1. 0-1 branches
+13290,Bank of Akron,NY,Commercial,13876,CNB Bank,PA,Commercial,2020-07-17,2020,6,1,3. 6-20 branches
+13408,Security Bank,TX,Commercial,58309,American Momentum Bank,TX,Commercial,2020-02-29,2020,12,0,3. 6-20 branches
+13425,South State Bank,SC,Commercial,33555,"CenterState Bank, National Association",FL,Commercial,2020-06-08,2020,168,1,5. Over 100 branches
+13580,Union Bank of Blair,WI,Commercial,10384,Waumandee State Bank,WI,Commercial,2020-08-07,2020,1,0,1. 0-1 branches
+13669,Burton State Bank,TX,Commercial,16753,Citizens State Bank,TX,Commercial,2021-12-03,2021,1,0,1. 0-1 branches
+13697,The Olpe State Bank,KS,Commercial,15111,The Citizens State Bank,KS,Commercial,2021-11-05,2021,1,0,1. 0-1 branches
+13710,Bank of Palmer,KS,Commercial,15908,Union State Bank,KS,Commercial,2021-12-01,2021,2,0,2. 2-5 branches
+13787,The Missouri Bank II,MO,Commercial,14036,The Missouri Bank,MO,Commercial,2020-04-04,2020,4,0,2. 2-5 branches
+13853,First National Bank in Fairfield,IA,Commercial,14843,MidWestOne Bank,IA,Commercial,2022-06-09,2022,1,0,1. 0-1 branches
+13956,Chetopa State Bank & Trust Co.,KS,Commercial,26217,Bank of Commerce,KS,Commercial,2020-01-01,2020,1,0,1. 0-1 branches
+14051,Century Bank,IA,Commercial,4444,The First National Bank in Creston,IA,Commercial,2020-04-18,2020,1,0,1. 0-1 branches
+14061,State Bank of Burnettsville,IN,Commercial,5768,The Fountain Trust Company,IN,Commercial,2020-07-12,2020,2,0,2. 2-5 branches
+14084,Hillsboro State Bank,KS,Commercial,17927,Vintage Bank Kansas,KS,Commercial,2022-04-18,2022,1,0,1. 0-1 branches
+14370,First National Bank in Howell,MI,Commercial,34120,Bank of Ann Arbor,MI,Commercial,2021-11-30,2021,9,0,3. 6-20 branches
+14562,Centennial Bank,TX,Commercial,10359,Happy State Bank,TX,Commercial,2020-07-01,2020,14,0,3. 6-20 branches
+14776,COMMUNITY BANK OF SNYDER,TX,Commercial,10334,Oakwood Bank,TX,Commercial,2020-01-01,2020,1,0,1. 0-1 branches
+14816,mBank,MI,Commercial,57038,Nicolet National Bank,WI,Commercial,2021-09-03,2021,30,1,4. 21-100 branches
+14869,Platte Valley Bank of Missouri,MO,Commercial,26247,Central Bank of the Midwest,MO,Commercial,2020-04-04,2020,9,0,3. 6-20 branches
+14913,Lakestone Bank & Trust,MI,Commercial,1014,ChoiceOne Bank,MI,Commercial,2020-05-16,2020,13,0,3. 6-20 branches
+14924,The First National Bank in Staunton,IL,Commercial,5296,"Associated Bank, National Association",WI,Commercial,2020-02-14,2020,9,1,3. 6-20 branches
+14994,State Bank of Arcadia,WI,Commercial,3639,First National Bank & Trust Company,IL,Commercial,2021-10-01,2021,4,1,2. 2-5 branches
+15009,Towanda State Bank,KS,Commercial,17927,Vintage Bank Kansas,KS,Commercial,2021-08-08,2021,1,0,1. 0-1 branches
+15011,Farmers State Bank of Munith,MI,Commercial,11406,The State Bank,MI,Commercial,2021-12-01,2021,3,0,2. 2-5 branches
+15121,Jackson County Bank,WI,Commercial,14222,Security Financial Bank,WI,Commercial,2021-08-21,2021,3,0,2. 2-5 branches
+15158,Timberwood Bank,WI,Commercial,5304,"Bank First, N.A.",WI,Commercial,2020-05-15,2020,2,0,2. 2-5 branches
+15173,"Farmers & Merchants Bank, of Orfordville",WI,Commercial,2455,The Bank of Brodhead,WI,Commercial,2020-03-07,2020,1,0,1. 0-1 branches
+15285,Canton State Bank,MO,Commercial,12214,United State Bank,MO,Commercial,2020-11-05,2020,1,0,1. 0-1 branches
+15289,Great Western Bank,SD,Commercial,1105,First Interstate Bank,MT,Commercial,2022-02-01,2022,176,1,5. Over 100 branches
+15300,Texas First State Bank,TX,Commercial,11813,BancorpSouth Bank,MS,Commercial,2020-01-01,2020,6,1,3. 6-20 branches
+15320,Laurens State Bank,IA,Commercial,230,Community State Bank,IA,Commercial,2021-07-09,2021,3,0,2. 2-5 branches
+15333,Citizens State Bank - Midwest,ND,Commercial,8386,KodaBank,ND,Commercial,2020-02-14,2020,5,0,2. 2-5 branches
+15384,The Henry County Bank,OH,Commercial,12982,Civista Bank,OH,Commercial,2022-07-01,2022,7,0,3. 6-20 branches
+15440,Stock Growers Bank,ND,Commercial,8942,Stock Growers Bank,ND,Commercial,2020-09-12,2020,1,0,1. 0-1 branches
+15586,First State Bank,NE,Commercial,10641,Riverstone Bank,NE,Commercial,2021-11-05,2021,6,0,3. 6-20 branches
+15611,Oklahoma State Bank,OK,Commercial,15399,RCB Bank,OK,Commercial,2021-10-01,2021,3,0,2. 2-5 branches
+15684,Border Bank,MN,Commercial,20776,Border Bank,ND,Commercial,2020-12-07,2020,9,1,3. 6-20 branches
+15774,The Tilden Bank,NE,Commercial,5496,Cornerstone Bank,NE,Commercial,2021-01-07,2021,3,0,2. 2-5 branches
+16001,Elmira Savings Bank,NY,Savings,6989,"Community Bank, National Association",NY,Commercial,2022-05-14,2022,7,0,3. 6-20 branches
+16012,Dime Community Bank,NY,Commercial,6976,Dime Community Bank,NY,Commercial,2021-02-01,2021,28,0,4. 21-100 branches
+16170,Saints Avenue Bank,MO,Commercial,19512,Royal Banks of Missouri,MO,Commercial,2021-07-30,2021,4,0,2. 2-5 branches
+16188,Commercial State Bank,NE,Commercial,8323,Community State Bank,NE,Commercial,2020-01-01,2020,1,0,1. 0-1 branches
+16379,Springfield State Bank,NE,Commercial,14327,Horizon Bank,NE,Commercial,2022-01-01,2022,1,0,1. 0-1 branches
+16414,Virginia Bank and Trust Company,VA,Commercial,6811,First National Bank,VA,Commercial,2020-10-30,2020,7,0,3. 6-20 branches
+16419,1st Bank & Trust,OK,Commercial,14331,FirstBank,OK,Commercial,2020-01-01,2020,4,0,2. 2-5 branches
+16438,NXT Bank,IA,Commercial,20369,Heartland Bank and Trust Company,IL,Commercial,2021-12-04,2021,5,1,2. 2-5 branches
+16511,Tri-State Bank of Memphis,TN,Commercial,20856,Liberty Bank and Trust Company,LA,Commercial,2021-10-08,2021,1,1,1. 0-1 branches
+16527,Bank of Glen Ullin,ND,Commercial,9420,The Union Bank,ND,Commercial,2020-10-30,2020,1,0,1. 0-1 branches
+16717,Farmers & Traders Savings Bank,IA,Commercial,14382,Fidelity Bank & Trust,IA,Commercial,2022-01-01,2022,1,0,1. 0-1 branches
+17302,Titonka Savings Bank,IA,Commercial,8094,NSB Bank,IA,Commercial,2021-07-12,2021,3,0,2. 2-5 branches
+17347,Iowa Prairie Bank,IA,Commercial,13953,Iowa State Bank,IA,Commercial,2021-12-04,2021,3,0,2. 2-5 branches
+17395,The Lorraine State Bank,KS,Commercial,18474,First Kansas Bank,KS,Commercial,2021-03-15,2021,1,0,1. 0-1 branches
+17401,Wenona State Bank,IL,Commercial,28401,Eureka Savings Bank,IL,Savings,2021-04-30,2021,1,0,1. 0-1 branches
+17474,First Bank of Muleshoe,TX,Commercial,10359,Happy State Bank,TX,Commercial,2021-02-19,2021,3,0,2. 2-5 branches
+17476,Mechanics' Savings Bank,ME,Savings,17741,Biddeford Savings Bank,ME,Savings,2020-01-01,2020,4,0,2. 2-5 branches
+17690,South Porte Bank,IL,Commercial,57897,SouthernTrust Bank,IL,Commercial,2020-07-17,2020,2,0,2. 2-5 branches
+17856,First State Bank,TX,Commercial,26543,First National Bank,TX,Commercial,2020-04-09,2020,4,0,2. 2-5 branches
+17884,The First State Bank,OK,Commercial,25738,First National Bank and Trust Company,OK,Commercial,2021-07-18,2021,3,0,2. 2-5 branches
+17909,First State Bank of Mobeetie,TX,Commercial,10359,Happy State Bank,TX,Commercial,2020-01-24,2020,2,0,2. 2-5 branches
+17953,Sandhills Bank,SC,Commercial,15932,The Citizens Bank,SC,Commercial,2022-07-01,2022,4,0,2. 2-5 branches
+18240,Putnam Bank,CT,Savings,17764,Centreville Bank,RI,Savings,2020-05-01,2020,8,1,3. 6-20 branches
+18509,West Suburban Bank,IL,Commercial,3603,Old Second National Bank,IL,Commercial,2021-12-01,2021,40,0,4. 21-100 branches
+18528,Mainstreet Bank,NE,Commercial,4778,Western National Bank,NE,Commercial,2021-07-01,2021,9,0,3. 6-20 branches
+18987,First State Bank,AR,Commercial,34784,Commercial Capital Bank,LA,Commercial,2020-04-01,2020,1,1,1. 0-1 branches
+19048,BBVA USA,AL,Commercial,6384,"PNC Bank, National Association",DE,Commercial,2021-10-08,2021,644,1,5. Over 100 branches
+19293,Center Point Bank and Trust Company,IA,Commercial,34488,Hiawatha Bank and Trust Company,IA,Commercial,2020-06-12,2020,1,0,1. 0-1 branches
+19515,Bank of Doniphan,NE,Commercial,5434,MNB BANK,NE,Commercial,2022-06-01,2022,3,0,2. 2-5 branches
+19640,Fort Hood National Bank,TX,Commercial,3285,First National Bank Texas,TX,Commercial,2020-10-01,2020,7,0,3. 6-20 branches
+19829,Bank of Commerce,OK,Commercial,9472,"Welch State Bank of Welch, Okla.",OK,Commercial,2021-12-31,2021,1,0,1. 0-1 branches
+19842,Bank Leumi USA,NY,Commercial,9396,Valley National Bank,NJ,Commercial,2022-04-01,2022,5,1,2. 2-5 branches
+19943,Century Bank and Trust Company,MA,Commercial,32773,Eastern Bank,MA,Commercial,2021-11-12,2021,29,0,4. 21-100 branches
+20281,Peoples Bank and Trust Company of Madison County,KY,Commercial,32912,Whitaker Bank,KY,Commercial,2020-12-01,2020,10,0,3. 6-20 branches
+20711,Executive National Bank,FL,Commercial,20234,City National Bank of Florida,FL,Commercial,2020-10-09,2020,3,0,2. 2-5 branches
+20761,Heritage First Bank,GA,Commercial,22092,First National Community Bank,GA,Commercial,2021-07-01,2021,3,0,2. 2-5 branches
+20828,Banco Santander Puerto Rico,PR,Commercial,30387,FirstBank Puerto Rico,PR,Commercial,2020-09-01,2020,1,0,1. 0-1 branches
+20931,Damariscotta Bank & Trust Co.,ME,Commercial,18408,Bangor Savings Bank,ME,Savings,2020-12-01,2020,6,0,3. 6-20 branches
+21809,Eagle State Bank,NE,Commercial,10641,Tri Valley Bank,NE,Commercial,2020-09-30,2020,1,0,1. 0-1 branches
+22039,1st Bank,MT,Commercial,1978,The Yellowstone Bank,MT,Commercial,2021-09-18,2021,1,0,1. 0-1 branches
+22217,Lakeside State Bank,OK,Commercial,15399,RCB Bank,OK,Commercial,2021-10-01,2021,2,0,2. 2-5 branches
+22221,SB One Bank,NJ,Commercial,12010,Provident Bank,NJ,Savings,2020-07-31,2020,18,0,3. 6-20 branches
+22327,"Spirit of Texas Bank, SSB",TX,Savings,3890,Simmons Bank,AR,Commercial,2022-04-09,2022,37,1,4. 21-100 branches
+22543,1st State Bank of Mason City,IL,Commercial,9631,Alliance Community Bank,IL,Commercial,2021-10-01,2021,1,0,1. 0-1 branches
+23754,Liberty Bank,CA,Commercial,35331,"Liberty Bank, National Association",CA,Commercial,2022-08-12,2022,3,0,2. 2-5 branches
+24074,Merchants Bank of Commerce,CA,Commercial,33826,Columbia State Bank,WA,Commercial,2021-10-01,2021,12,1,3. 6-20 branches
+24334,Rocky Mountain Bank,WY,Commercial,57607,First Western Trust Bank,CO,Commercial,2021-12-31,2021,3,1,2. 2-5 branches
+24342,Yorktown Bank,OK,Commercial,30895,"Fidelity Bank, National Association",KS,Commercial,2021-10-22,2021,3,1,2. 2-5 branches
+24655,American River Bank,CA,Commercial,32779,Bank of Marin,CA,Commercial,2021-08-07,2021,11,0,3. 6-20 branches
+24763,Panola National Bank,TX,Commercial,3250,"VeraBank, National Association",TX,Commercial,2021-08-27,2021,2,0,2. 2-5 branches
+24811,Boston Private Bank & Trust Company,MA,Commercial,24735,Silicon Valley Bank,CA,Commercial,2021-07-01,2021,20,1,3. 6-20 branches
+25127,Points West Community Bank,NE,Commercial,3031,Points West Community Bank,CO,Commercial,2020-01-01,2020,11,1,3. 6-20 branches
+25668,Farmers Savings Bank,IA,Commercial,235,Security State Bank,IA,Commercial,2022-01-29,2022,1,0,1. 0-1 branches
+26218,Park Bank,WI,Commercial,3709,First Midwest Bank,IL,Commercial,2020-06-13,2020,5,1,2. 2-5 branches
+26372,Heritage Bank,TX,Commercial,58716,"Third Coast Bank, SSB",TX,Savings,2020-01-01,2020,5,0,2. 2-5 branches
+26448,Mansfield Co-operative Bank,MA,Savings,90169,Bluestone Bank,MA,Savings,2020-10-01,2020,4,0,2. 2-5 branches
+26511,Melrose Bank,MA,Savings,17870,Cambridge Savings Bank,MA,Savings,2020-06-01,2020,1,0,1. 0-1 branches
+26605,Wellesley Bank,MA,Savings,8152,Cambridge Trust Company,MA,Commercial,2020-06-01,2020,7,0,3. 6-20 branches
+26911,Peoples State Bank,IA,Commercial,9099,South Ottumwa Savings Bank,IA,Commercial,2020-01-31,2020,3,0,2. 2-5 branches
+26967,Texas Bank Financial,TX,Commercial,19559,TexasBank,TX,Commercial,2022-01-02,2022,4,0,2. 2-5 branches
+27226,Country Bank,NY,Commercial,28359,"OceanFirst Bank, National Association",NJ,Commercial,2020-01-01,2020,6,1,3. 6-20 branches
+27286,Republic Bank & Trust,OK,Commercial,2315,Armstrong Bank,OK,Commercial,2020-03-21,2020,5,0,2. 2-5 branches
+27334,"People's United Bank, National Association",CT,Commercial,588,Manufacturers and Traders Trust Company,NY,Commercial,2022-04-02,2022,348,1,5. Over 100 branches
+27506,Standing Stone Bank,OH,Commercial,13216,The Savings Bank,OH,Commercial,2021-11-12,2021,3,0,2. 2-5 branches
+27552,1st Constitution Bank,NJ,Commercial,19953,Lakeland Bank,NJ,Commercial,2022-01-06,2022,23,0,4. 21-100 branches
+27575,Bank of New Castle,DE,Commercial,5649,Discover Bank,DE,Commercial,2020-09-30,2020,1,0,1. 0-1 branches
+27744,MutualBank,IN,Commercial,28178,Northwest Bank,PA,Savings,2020-04-24,2020,36,1,4. 21-100 branches
+27757,Standard Bank,PA,Savings,32245,"Dollar Bank, Federal Savings Bank",PA,Savings,2022-09-06,2022,18,0,3. 6-20 branches
+27909,BEST HOMETOWN BANK,IL,Savings,3842,First National Bank of Waterloo,IL,Commercial,2020-06-29,2020,2,0,2. 2-5 branches
+28068,Royal Savings Bank,IL,Savings,29523,Peoples Bank,IN,Commercial,2022-01-31,2022,9,1,3. 6-20 branches
+28100,Iberiabank,LA,Commercial,4977,First Horizon Bank,TN,Commercial,2020-07-02,2020,192,1,5. Over 100 branches
+28330,TCF National Bank,SD,Commercial,6560,The Huntington National Bank,OH,Commercial,2021-06-09,2021,506,1,5. Over 100 branches
+28567,Roselle Bank,NJ,Savings,28834,Columbia Bank,NJ,Savings,2020-04-01,2020,4,0,2. 2-5 branches
+28670,Guaranty Bank,MO,Commercial,58892,Guaranty Bank,MO,Commercial,2022-04-02,2022,15,0,3. 6-20 branches
+28684,Chesapeake Bank of Maryland,MD,Savings,29613,Rosedale Federal Savings and Loan Association,MD,Savings,2022-07-07,2022,4,0,2. 2-5 branches
+28776,Quarry City Savings and Loan Association,MO,Savings,27046,Community National Bank & Trust,KS,Commercial,2022-09-23,2022,1,1,1. 0-1 branches
+28892,Investors Bank,NJ,Commercial,57957,"Citizens Bank, National Association",RI,Commercial,2022-04-07,2022,153,1,5. Over 100 branches
+28934,Perpetual Federal Savings Bank of Urbana,OH,Commercial,5969,The Farmers & Merchants State Bank,OH,Commercial,2021-10-01,2021,1,0,1. 0-1 branches
+28963,Lincoln 1st  Bank,NJ,Savings,18198,Ion Bank,CT,Savings,2022-07-01,2022,2,1,2. 2-5 branches
+29224,Heritage State Bank,IL,Commercial,3777,The First National Bank of Carmi,IL,Commercial,2020-11-30,2020,3,0,2. 2-5 branches
+29281,Washington Savings Bank,PA,Savings,27799,William Penn Bank,PA,Savings,2020-05-01,2020,4,0,2. 2-5 branches
+29661,Kennebec Federal Savings and Loan Association of Waterville,ME,Savings,17897,Kennebec Savings Bank,ME,Savings,2021-03-05,2021,1,0,1. 0-1 branches
+29926,Dearborn Savings Bank,IN,Savings,4319,"FCN Bank, National Association",IN,Commercial,2020-05-18,2020,1,0,1. 0-1 branches
+29962,"Family Federal Savings, F.A.",MA,Savings,26451,Fidelity Co-operative Bank,MA,Savings,2020-01-01,2020,3,0,2. 2-5 branches
+30022,Millington Bank,NJ,Savings,28765,Kearny Bank,NJ,Savings,2020-07-10,2020,4,0,2. 2-5 branches
+30056,Fairport Savings Bank,NY,Savings,6947,"Evans Bank, National Association",NY,Commercial,2020-05-01,2020,5,0,2. 2-5 branches
+30126,Gibraltar Bank,NJ,Savings,29941,Bogota Savings Bank,NJ,Savings,2021-02-28,2021,3,0,2. 2-5 branches
+30306,"Broadway Federal Bank, f.s.b.",CA,Savings,34352,"City First Bank, National Association",DC,Commercial,2021-04-01,2021,3,1,2. 2-5 branches
+30337,Sterling National Bank,NY,Commercial,18221,"Webster Bank, National Association",CT,Commercial,2022-02-01,2022,74,1,4. 21-100 branches
+30433,SouthFirst Bank,AL,Savings,2832,First  Bank of Alabama,AL,Commercial,2021-04-15,2021,3,0,2. 2-5 branches
+30664,Central Federal Savings and Loan Association of Rolla,MO,Savings,28332,Southern Bank,MO,Commercial,2020-05-23,2020,1,0,1. 0-1 branches
+30698,First Advantage Bank,TN,Commercial,58366,Reliant Bank,TN,Commercial,2020-04-01,2020,9,0,3. 6-20 branches
+30954,Fidelity Savings and Loan Association of Bucks Co,PA,Savings,27799,William Penn Bank,PA,Savings,2020-05-01,2020,1,0,1. 0-1 branches
+31109,North Arundel Savings Bank,MD,Savings,32527,BayVanguard Bank,MD,Savings,2022-01-01,2022,1,0,1. 0-1 branches
+31381,Security Federal Bank,TN,Savings,32838,"Community First Bank, Inc.",SC,Commercial,2021-03-19,2021,2,1,2. 2-5 branches
+32021,Progressive Savings Bank,TN,Commercial,58463,SmartBank,TN,Commercial,2020-03-01,2020,6,0,3. 6-20 branches
+32287,Geauga Savings Bank,OH,Savings,6540,The Farmers National Bank of Canfield,OH,Commercial,2020-01-07,2020,2,0,2. 2-5 branches
+32325,Mutual of Omaha Bank,NE,Savings,58978,"CIT Bank, National Association",CA,Commercial,2020-01-01,2020,27,1,4. 21-100 branches
+32331,Madison Bank of Maryland,MD,Savings,32527,BayVanguard Bank,MD,Savings,2020-02-29,2020,3,0,2. 2-5 branches
+32393,Carroll Community Bank,MD,Commercial,1895,Farmers and Merchants Bank,MD,Commercial,2020-10-01,2020,2,0,2. 2-5 branches
+32487,1st Cameron State Bank,MO,Commercial,10618,BTC Bank,MO,Commercial,2021-11-04,2021,2,0,2. 2-5 branches
+32606,The University National Bank of Lawrence,KS,Commercial,35292,Great American Bank,KS,Commercial,2022-01-01,2022,1,0,1. 0-1 branches
+33405,First Bank and Trust,LA,Commercial,5903,BankPlus,MS,Commercial,2022-03-01,2022,17,1,3. 6-20 branches
+33508,State Bank of Arizona,AZ,Commercial,30788,Glacier Bank,MT,Commercial,2020-02-29,2020,10,1,3. 6-20 branches
+33510,East Boston Savings Bank,MA,Savings,9712,Rockland Trust Company,MA,Commercial,2021-11-12,2021,43,0,4. 21-100 branches
+33542,Rock Canyon Bank,UT,Commercial,59052,NBH Bank,CO,Commercial,2022-09-01,2022,7,1,3. 6-20 branches
+33806,Opus Bank,CA,Commercial,32172,Pacific Premier Bank,CA,Commercial,2020-06-01,2020,46,0,4. 21-100 branches
+34089,Pacific Global Bank,IL,Commercial,58816,Royal Business Bank,CA,Commercial,2020-01-10,2020,3,1,2. 2-5 branches
+34116,First Bank,GA,Commercial,10307,Builtwell Bank,TN,Commercial,2022-08-19,2022,6,1,3. 6-20 branches
+34295,Investors Community Bank,WI,Commercial,57038,Nicolet National Bank,WI,Commercial,2021-12-03,2021,5,0,2. 2-5 branches
+34308,Metro Bank,KY,Commercial,20856,Liberty Bank and Trust Company,LA,Commercial,2020-04-22,2020,1,1,1. 0-1 branches
+34328,Cache Bank and Trust,CO,Commercial,17411,Mountain Valley Bank,CO,Commercial,2021-12-08,2021,2,0,2. 2-5 branches
+34397,Bank of Bolivar,MO,Commercial,1617,The Bank of Missouri,MO,Commercial,2020-08-07,2020,6,0,3. 6-20 branches
+34468,Two Rivers Bank,NE,Commercial,17639,First State Bank & Trust Company,NE,Commercial,2021-12-07,2021,2,0,2. 2-5 branches
+34565,Victory State Bank,NY,Commercial,28710,Northfield Bank,NY,Savings,2020-07-01,2020,6,0,3. 6-20 branches
+34652,Home Federal Bank of Hollywood,FL,Savings,57931,Anchor Bank,FL,Commercial,2021-08-27,2021,1,0,1. 0-1 branches
+34747,Hillsboro Bank,FL,Commercial,21031,The Bank of Tampa,FL,Commercial,2021-10-01,2021,3,0,2. 2-5 branches
+34837,"Premier Bank, Inc.",WV,Commercial,6544,Peoples Bank,OH,Commercial,2021-09-18,2021,29,1,4. 21-100 branches
+34940,Pacific Mercantile Bank,CA,Commercial,35498,"Banc of California, National Association",CA,Commercial,2021-10-19,2021,4,0,2. 2-5 branches
+34944,Community Shores Bank,MI,Commercial,1014,ChoiceOne Bank,MI,Commercial,2020-10-17,2020,4,0,2. 2-5 branches
+34957,Clarkston State Bank,MI,Commercial,58433,"Waterford Bank, N.A.",OH,Commercial,2020-01-01,2020,2,1,2. 2-5 branches
+34982,Landmark Community Bank,TN,Commercial,3890,Simmons Bank,AR,Commercial,2021-10-09,2021,7,1,3. 6-20 branches
+35027,CornerstoneBank,GA,Savings,57756,CoastalStates Bank,SC,Commercial,2021-10-02,2021,3,1,2. 2-5 branches
+35069,Calwest Bank,CA,Commercial,57044,"Bank of Southern California, N.A.",CA,Commercial,2020-05-31,2020,5,0,2. 2-5 branches
+35077,LINKBANK,PA,Commercial,14863,The Gratz Bank,PA,Commercial,2021-09-18,2021,5,0,2. 2-5 branches
+35249,Gwinnett Community Bank,GA,Commercial,11063,First-Citizens Bank & Trust Company,NC,Commercial,2020-02-01,2020,3,1,2. 2-5 branches
+35258,Community Bank & Trust,TN,Commercial,58366,Reliant Bank,TN,Commercial,2020-01-02,2020,5,0,2. 2-5 branches
+35304,Florida Business Bank,FL,Commercial,131,Seacoast National Bank,FL,Commercial,2022-01-03,2022,1,0,1. 0-1 branches
+35385,Home Savings Bank,OH,Commercial,29845,First Federal Bank of the Midwest,OH,Commercial,2020-01-31,2020,35,0,4. 21-100 branches
+35426,Two River Community Bank,NJ,Commercial,28359,"OceanFirst Bank, National Association",NJ,Commercial,2020-01-01,2020,16,0,3. 6-20 branches
+35465,Select Bank & Trust Company,NC,Commercial,15019,First Bank,NC,Commercial,2021-10-16,2021,21,0,4. 21-100 branches
+35479,Mariner's Bank,NJ,Commercial,30076,"Spencer Savings Bank, SLA",NJ,Savings,2021-11-17,2021,6,0,3. 6-20 branches
+35514,Cheaha Bank,AL,Commercial,58316,"Investar Bank, National Association",LA,Commercial,2021-04-01,2021,4,1,2. 2-5 branches
+35525,"Atlantic Capital Bank, National Association",GA,Commercial,33555,"SouthState Bank, National Association",FL,Commercial,2022-03-01,2022,3,1,2. 2-5 branches
+57112,Landmark Community Bank,PA,Commercial,11868,The Fidelity Deposit and Discount Bank,PA,Commercial,2021-07-01,2021,5,0,2. 2-5 branches
+57119,United Bank of El Paso del Norte,TX,Commercial,2240,First American Bank,NM,Commercial,2022-06-17,2022,4,1,2. 2-5 branches
+57131,Beach Bank,FL,Commercial,34217,The First Bank,MS,Commercial,2022-08-01,2022,7,1,3. 6-20 branches
+57135,CresCom Bank,SC,Commercial,22858,United Bank,VA,Commercial,2020-05-01,2020,74,1,4. 21-100 branches
+57144,American State Bank & Trust Company,KS,Commercial,25858,Equity Bank,KS,Commercial,2021-10-02,2021,16,0,3. 6-20 branches
+57254,Freedom National Bank,RI,Commercial,23622,Bristol County Savings Bank,MA,Savings,2020-07-31,2020,2,1,2. 2-5 branches
+57255,Frederick County Bank,MD,Commercial,7506,ACNB Bank,PA,Commercial,2020-01-11,2020,5,1,2. 2-5 branches
+57264,AFFINITY BANK,GA,Commercial,29510,Newton Federal Bank,GA,Savings,2020-01-10,2020,1,0,1. 0-1 branches
+57277,Victory Community Bank,KY,Savings,9443,Heartland Bank,OH,Commercial,2020-04-08,2020,3,1,2. 2-5 branches
+57293,EnerBank USA,UT,Commercial,12368,Regions Bank,AL,Commercial,2021-10-01,2021,1,1,1. 0-1 branches
+57395,Community National Bank,MO,Commercial,35276,Freedom Bank of Southern Missouri,MO,Commercial,2020-06-12,2020,3,0,2. 2-5 branches
+57428,Seacoast Commerce Bank,CA,Commercial,27237,Enterprise Bank & Trust,MO,Commercial,2020-11-13,2020,8,1,3. 6-20 branches
+57477,Eagle Community Bank,MN,Commercial,57603,Falcon National Bank,MN,Commercial,2021-05-01,2021,1,0,1. 0-1 branches
+57513,Willamette Community Bank,OR,Commercial,34685,People's Bank of Commerce,OR,Commercial,2021-03-01,2021,3,0,2. 2-5 branches
+57531,"Grand Mountain Bank, FSB",CO,Savings,57716,United Business Bank,CA,Commercial,2020-02-04,2020,4,1,2. 2-5 branches
+57552,First Capital Bank,TN,Commercial,8235,Planters Bank & Trust Company,MS,Commercial,2021-12-18,2021,1,1,1. 0-1 branches
+57581,Maple Bank,MN,Commercial,5116,Granite Bank,MN,Commercial,2022-07-22,2022,1,0,1. 0-1 branches
+57611,1st Equity Bank Northwest,IL,Commercial,34393,1st Equity Bank,IL,Commercial,2020-05-05,2020,1,0,1. 0-1 branches
+57776,Howard Bank,MD,Commercial,7888,First National Bank of Pennsylvania,PA,Commercial,2022-02-05,2022,14,1,3. 6-20 branches
+57816,Bank of Santa Clarita,CA,Commercial,57044,"Bank of Southern California, N.A.",CA,Commercial,2021-10-01,2021,1,0,1. 0-1 branches
+57945,Freedom Bank,FL,Commercial,131,Seacoast National Bank,FL,Commercial,2020-08-21,2020,3,0,2. 2-5 branches
+57966,First Choice Bank,CA,Commercial,27237,Enterprise Bank & Trust,MO,Commercial,2021-07-21,2021,9,1,3. 6-20 branches
+58000,VisionBank,KS,Commercial,25665,Community National Bank,KS,Commercial,2022-06-10,2022,3,0,2. 2-5 branches
+58107,FortuneBank,MO,Commercial,28332,Southern Bank,MO,Commercial,2022-02-26,2022,2,0,2. 2-5 branches
+58119,E*TRADE Savings Bank,VA,Savings,30746,E*TRADE Bank,VA,Savings,2022-01-01,2022,0,0,1. 0-1 branches
+58143,Southern Bank & Trust,GA,Commercial,14065,Pinnacle Bank,GA,Commercial,2020-04-01,2020,4,0,2. 2-5 branches
+58152,First Bank of the Palm Beaches,FL,Commercial,131,Seacoast National Bank,FL,Commercial,2020-03-13,2020,3,0,2. 2-5 branches
+58172,Peoples Bank and Trust Company of Clinton County,KY,Commercial,22756,People's Bank and Trust Company of Pickett County,TN,Commercial,2021-07-15,2021,1,1,1. 0-1 branches
+58175,Bank of New Jersey,NJ,Commercial,57919,ConnectOne Bank,NJ,Commercial,2020-01-02,2020,9,0,3. 6-20 branches
+58199,Beartooth Bank,MT,Commercial,22559,American Bank Center,ND,Commercial,2020-10-12,2020,1,1,1. 0-1 branches
+58227,Triumph Bank,TN,Commercial,3890,Simmons Bank,AR,Commercial,2021-10-09,2021,7,1,3. 6-20 branches
+58231,Ohana Pacific Bank,HI,Commercial,57873,Commonwealth Business Bank,CA,Commercial,2021-07-01,2021,1,1,1. 0-1 branches
+58247,Legacy Bank of Florida,FL,Commercial,131,Seacoast National Bank,FL,Commercial,2021-08-06,2021,5,0,2. 2-5 branches
+58249,The Bank & Trust of Bryan/College Station,TX,Commercial,3066,"First Financial Bank, National Association",TX,Commercial,2020-01-01,2020,5,0,2. 2-5 branches
+58274,Liberty First Bank,GA,Commercial,14065,Pinnacle Bank,GA,Commercial,2021-10-01,2021,1,0,1. 0-1 branches
+58296,Aquesta Bank,NC,Commercial,16889,United Community Bank,SC,Commercial,2021-10-01,2021,9,1,3. 6-20 branches
+58319,"Texas Citizens Bank, National Association",TX,Commercial,58228,b1BANK,LA,Commercial,2022-03-01,2022,6,1,3. 6-20 branches
+58328,Seaside National Bank & Trust,FL,Commercial,16889,United Community Bank,GA,Commercial,2020-07-01,2020,14,1,3. 6-20 branches
+58345,Marquis Bank,FL,Commercial,58862,Professional Bank,FL,Commercial,2020-03-27,2020,3,0,2. 2-5 branches
+58347,WestSide Bank,GA,Commercial,58374,The Piedmont Bank,GA,Commercial,2021-02-05,2021,2,0,2. 2-5 branches
+58366,Reliant Bank,TN,Commercial,16889,United Community Bank,SC,Commercial,2022-01-01,2022,30,1,4. 21-100 branches
+58372,Sabal Palm Bank,FL,Commercial,131,Seacoast National Bank,FL,Commercial,2022-01-03,2022,4,0,2. 2-5 branches
+58395,Western States Bank,WY,Commercial,5452,First National Bank of Omaha,NE,Commercial,2022-02-14,2022,11,1,3. 6-20 branches
+58402,Metro Phoenix Bank,AZ,Commercial,3931,"Alerus Financial, National Association",ND,Commercial,2022-09-16,2022,1,1,1. 0-1 branches
+58415,Pacific Enterprise Bank,CA,Commercial,57716,United Business Bank,CA,Commercial,2022-02-02,2022,1,0,1. 0-1 branches
+58498,MidCoast Community Bank,DE,Commercial,7593,First Citizens Community Bank,PA,Commercial,2020-04-17,2020,3,1,2. 2-5 branches
+58502,Covenant Bank,PA,Commercial,7799,Citizens & Northern Bank,PA,Commercial,2020-07-01,2020,2,0,2. 2-5 branches
+58532,First Florida Integrity Bank,FL,Commercial,58647,First Foundation Bank,CA,Commercial,2021-12-17,2021,7,1,3. 6-20 branches
+58541,USNY Bank,NY,Commercial,698,Wayne Bank,PA,Commercial,2020-07-07,2020,4,1,2. 2-5 branches
+58545,"Business Bank of Texas, N.A.",TX,Commercial,35015,"Lone Star Capital Bank, National Association",TX,Commercial,2021-05-01,2021,1,0,1. 0-1 branches
+58562,AccessBank Texas,TX,Commercial,26906,Texas Regional Bank,TX,Commercial,2022-07-01,2022,6,0,3. 6-20 branches
+58577,"Pioneer Bank, SSB",TX,Savings,4767,"Sunflower Bank, National Association",CO,Commercial,2022-04-01,2022,20,1,3. 6-20 branches
+58580,BlackRidgeBANK,ND,Commercial,19123,First Western Bank & Trust,ND,Commercial,2020-11-13,2020,11,0,3. 6-20 branches
+58604,Level One Bank,MI,Commercial,4365,First Merchants Bank,IN,Commercial,2022-04-01,2022,17,1,3. 6-20 branches
+58630,Bank of Feather River,CA,Commercial,23275,Plumas Bank,CA,Commercial,2021-07-01,2021,1,0,1. 0-1 branches
+58632,Empire National Bank,NY,Commercial,58564,Flushing Bank,NY,Commercial,2020-10-30,2020,4,0,2. 2-5 branches
+58640,Revere Bank,MD,Commercial,4865,Sandy Spring Bank,MD,Commercial,2020-04-01,2020,11,0,3. 6-20 branches
+58641,Savoy Bank,NY,Commercial,58675,Hanover Community Bank,NY,Commercial,2021-05-26,2021,1,0,1. 0-1 branches
+58652,The Westchester Bank,NY,Commercial,9396,Valley National Bank,NJ,Commercial,2021-12-01,2021,7,1,3. 6-20 branches
+58654,Gold Coast Bank,NY,Commercial,28892,Investors Bank,NJ,Commercial,2020-04-02,2020,7,1,3. 6-20 branches
+58671,"Texan Bank, National Association",TX,Commercial,28094,"Home Bank, National Association",LA,Commercial,2022-03-26,2022,5,1,2. 2-5 branches
+58714,Franklin Synergy Bank,TN,Commercial,8663,FirstBank,TN,Commercial,2020-08-15,2020,17,0,3. 6-20 branches
+58728,Suncrest Bank,CA,Commercial,21716,Citizens Business Bank,CA,Commercial,2022-01-07,2022,8,0,3. 6-20 branches
+58828,Valley Republic Bank,CA,Commercial,21943,Tri Counties Bank,CA,Commercial,2022-03-25,2022,4,0,2. 2-5 branches
+58889,Ann Arbor State Bank,MI,Commercial,58604,Level One Bank,MI,Commercial,2020-01-02,2020,3,0,2. 2-5 branches
+58978,"CIT Bank, National Association",CA,Commercial,11063,First-Citizens Bank & Trust Company,NC,Commercial,2022-01-04,2022,84,1,4. 21-100 branches

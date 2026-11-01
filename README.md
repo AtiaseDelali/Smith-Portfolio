@@ -1,12 +1,13 @@
 # Smith Cudjoe: Data & Business Analysis Portfolio
 
-Three projects using SQL (SQLite) and Power BI. Each folder has its own README, SQL file, dashboard and project page.
+Four projects using SQL (SQLite) and Power BI. Each folder has its own README, SQL file, dashboard and project page.
 
 | Project | Type | Business question | Folder |
 |---|---|---|---|
 | **Online Retail Analysis** | Data analysis | Who really pays the bills at a UK online gift shop? | [online-retail-analysis](online-retail-analysis/) |
 | **Hotel Booking Cancellations** | Business analysis | Where are cancellations costing two hotels money, and which policy would protect the most revenue? | [hotel-cancellation-analysis](hotel-cancellation-analysis/) |
 | **Consumer Complaints & SLA** | Business analysis | What drives complaints and late responses, and where should operations focus first? | [consumer-complaints-analysis](consumer-complaints-analysis/) |
+| **Bank Consolidation & Branch Impact** | Business analysis | How fast are US banks consolidating, and what do mergers mean for branches and customers? | [bank-consolidation-analysis](bank-consolidation-analysis/) |
 
 ## Online Retail Analysis
 ![Online retail dashboard](online-retail-analysis/dashboard.png)
@@ -25,6 +26,12 @@ A business analysis of 119,390 bookings at two hotels in Portugal: 37.5% were ca
 
 A business analysis of 4,991 complaints from the CFPB Consumer Complaint Database: 98.6% were answered within the 15-day SLA, but smaller companies caused 67 of the 68 late responses, and 36% of all complaints trace back to credit report information that belongs to someone else.
 → [Read the project](consumer-complaints-analysis/README.md)
+
+## Bank Consolidation & Branch Impact
+![Bank consolidation dashboard](bank-consolidation-analysis/dashboard.png)
+
+A business analysis of FDIC bank structure changes: 361 banks were absorbed in mergers between January 2020 and September 2022 while only 28 new banks opened. Nine large deals moved half of the 4,800 acquired branches, and buyers closed 81% more branches in the year after a merger. The project ends with a merger integration readiness checklist, and shows how I worked out what a capped 10,000-row extract really contained before analysing it.
+→ [Read the project](bank-consolidation-analysis/README.md)
 
 ## Tools
 SQLite (DBeaver) · Power BI · Excel · GitHub Pages
